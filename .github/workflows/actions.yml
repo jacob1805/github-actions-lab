@@ -6,6 +6,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: simple JS action
-              uses: action/hello-world-javascript-action@main
+              uses: actions/hello-world-javascript-action@main
               with: 
                 who-to-greet: Mario
